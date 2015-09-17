@@ -33,4 +33,6 @@ Lita.configure do |config|
   ## documentation for options.
   # config.handlers.some_handler.some_config_key = "value"
   config.http.port = ENV["PORT"]
+
+  config.handlers.talk.docomo_api_key = ENV["DOCOMO_API_KEY"]
 end
